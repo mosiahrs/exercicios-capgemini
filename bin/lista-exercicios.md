@@ -15,12 +15,10 @@ total percorrida pelo automóvel e o total de combustível gasto;
 por ele no mês (em dinheiro). Sabendo que este vendedor ganha 15% de comissão sobre suas vendas
 efetuadas, informar o seu nome, o salário fixo e salário no final do mês;
 
-- [ ] 5. Escreva um algoritmo que leia o nome de um aluno e as notas das três provas que ele obteve no semestre.
+- [x] 5. Escreva um algoritmo que leia o nome de um aluno e as notas das três provas que ele obteve no semestre.
 No finalinformar o nome do aluno e a sua média (aritmética);
 
-- [ ] 6. Leia dois valores para as variáveis A e B, e efetuar as trocas dos valores de forma que a variávelApasse a
-possuir ovalor da variável B e a variável B passe a possuir o valor da variável A.Apresentar osvalores
-trocados;
+- [ ] 6. Leia dois valores para as variáveis A e B, e efetuar as trocas dos valores de forma que a variávelApasse a possuir ovalor da variável B e a variável B passe a possuir o valor da variável A. Apresentar osvalores trocados;
 
 - [ ] 7. Leia uma temperatura em graus Celsius e apresentá-la convertida em graus Fahrenheit. Afórmula de
 conversão é:F=(9*C+160) / 5, sendo F a temperatura em Fahrenheit e C a temperatura emCelsius;
