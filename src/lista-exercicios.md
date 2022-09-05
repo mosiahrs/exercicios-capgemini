@@ -105,17 +105,15 @@ d.10% para os demais funcionários.
 Leia o nome do funcionário, seu salário e o valor do salário mínimo. Calcule o seu novo salário
 reajustado. Escrever o nome do funcionário, o reajuste e seu novo salário. Calcule quanto à empresa
 vai aumentar sua folha de pagamento;
-- [ ] 
-29. Faça um algoritmo que receba o número do mês e mostre o mês correspondente. Valide mês inválido;
-- [ ] 
-30. Escreva um algoritmo que leia três valores inteiros distintos e os escreva em ordem crescente;
-- [ ] 
-31. Dados três valores A, B e C, em que A e B são números reais e C é um caractere, pede-se para imprimir o
-resultado da operação de A por B se C for um símbolo de operador aritmético; caso contrário deve ser
+
+- [ ] 29. Faça um algoritmo que receba o número do mês e mostre o mês correspondente. Valide mês inválido;
+
+- [ ] 30. Escreva um algoritmo que leia três valores inteiros distintos e os escreva em ordem crescente;
+
+- [ ] 31. Dados três valores A, B e C, em que A e B são números reais e C é um caractere, pede-se para imprimir o resultado da operação de A por B se C for um símbolo de operador aritmético; caso contrário deve ser
 impressa uma mensagem de operador não definido. Tratar erro de divisão por zero;
-- [ ] 
-32. Escreva um algoritmo que leia três valores inteiros e verifique se eles podem ser os lados de um triângulo.
-Se forem, informar qual o tipo de triângulo que eles formam: equilátero, isóscele ou escaleno.
+
+- [ ]32. Escreva um algoritmo que leia três valores inteiros e verifique se eles podem ser os lados de um triângulo. Se forem, informar qual o tipo de triângulo que eles formam: equilátero, isóscele ou escaleno.
 Propriedade: o comprimento de cada lado de um triângulo é menor do que a soma dos comprimentos dos
 outros dois lados.
 
