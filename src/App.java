@@ -3,16 +3,13 @@ import java.util.Scanner;
 /*  Curso de Lógica para Programação III
     Instrutor: Marcio Michelluzzi 
 */
+
+        //  Lista de exercícios I
 public class App {
     public static void main(String[] args){
         
-
-        //  Lista de exercícios I
-
-        //  1 - Faça um algoritmo que receba dois números e exiba o resultado da sua soma;
-        //  R:
-        
-        /*  try (Scanner leitorScanner = new Scanner(System.in)) {
+        //  1 - R:
+            /*  try (Scanner leitorScanner = new Scanner(System.in)) {
             int a;
             int b;
 
@@ -25,12 +22,8 @@ public class App {
             System.out.println("");
             System.out.println(a + " + " + b + " = " + (a+b));
             }*/
-        
-    
-    
-            // 2 - Faça um algoritmo que receba dois números e ao final 
-            // mostre a soma, subtração, multiplicação e a divisão dos números lidos;
-            // R:
+           
+            // 2 - R:
             /*
             try (Scanner sc1 = new Scanner(System.in)) {
             
@@ -62,13 +55,7 @@ public class App {
             }
             */
     
-            // 3 - Escreva um algoritmo para determinar o consumo médio de um automóvel 
-            // sendo fornecida a distância total percorrida pelo automóvel
-            // e o total de combustível gasto;
-
-            // km/lt = mediaConumo
-
-            // R:
+            // 3 - R:
             /*
             double mediaConsumo;
             double distanciaPercorrida = 300d;
@@ -79,10 +66,26 @@ public class App {
             System.out.println("A media de consumo eh " + mediaConsumo + "km/l");
             */
 
-    
-    
-    
-    
-    
+            /*4 Escreva um algoritmo que leia o nome de um vendedor, o seu salário fixo e o total de vendas efetuadas por ele no mês (em dinheiro). Sabendo que este vendedor ganha 15% de comissão sobre suas vendas efetuadas, informar o seu nome, o salário fixo e salário no final do mês;
+            - R: */
+            
+            String nomeVendedor;
+            double salarioFixo;
+            double totaldeVendas;
+            double comissao = 0.15d;
+
+            try (Scanner sc1 = new Scanner(System.in)) {
+                System.out.println("Digite o nome do vendedor");
+                nomeVendedor = sc1.nextLine();
+                
+                System.out.println("Digite seu salario fixo");
+                salarioFixo = sc1.nextDouble();
+
+                System.out.println("Qual foi o total de venda (em dinheiro)");
+                totaldeVendas = sc1.nextDouble();
+            }
+            double salarioFinal = salarioFixo + (totaldeVendas*comissao);
+            System.out.println("O salario de " + nomeVendedor + " esse mes sera de " + salarioFinal  +"R$");
+                
     }
 }

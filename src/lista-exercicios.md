@@ -3,22 +3,22 @@ Instrutor: Marcio Michelluzzi
 
 #   Lista de exercícios I 
 
-[x] 1. Faça um algoritmo que receba dois números e exiba o resultado da sua soma;
+[ x ] 1. Faça um algoritmo que receba dois números e exiba o resultado da sua soma;
 
-[x] 2. Faça um algoritmo que receba dois números e ao final mostre a soma, subtração, multiplicação e a divisão
+[ x ] 2. Faça um algoritmo que receba dois números e ao final mostre a soma, subtração, multiplicação e a divisão
 dos dois números lidos;
 
-[x] 3. Escreva um algoritmo para determinar o consumo médio de um automóvel sendo fornecida a distância
+[ x ] 3. Escreva um algoritmo para determinar o consumo médio de um automóvel sendo fornecida a distância
 total percorrida pelo automóvel e o total de combustível gasto;
 
-4. Escreva um algoritmo que leia o nome de um vendedor, o seu salário fixo e o total de vendas efetuadas
+[ x ] 4. Escreva um algoritmo que leia o nome de um vendedor, o seu salário fixo e o total de vendas efetuadas
 por ele no mês (em dinheiro). Sabendo que este vendedor ganha 15% de comissão sobre suas vendas
 efetuadas, informar o seu nome, o salário fixo e salário no final do mês;
 
-5. Escreva um algoritmo que leia o nome de um aluno e as notas das três provas que ele obteve no semestre.
+[ ] 5. Escreva um algoritmo que leia o nome de um aluno e as notas das três provas que ele obteve no semestre.
 No finalinformar o nome do aluno e a sua média (aritmética);
 
-6. Leia dois valores para as variáveis A e B, e efetuar as trocas dos valores de forma que a variávelApasse a
+[ ] 6. Leia dois valores para as variáveis A e B, e efetuar as trocas dos valores de forma que a variávelApasse a
 possuir ovalor da variável B e a variável B passe a possuir o valor da variável A.Apresentar osvalores
 trocados;
 
