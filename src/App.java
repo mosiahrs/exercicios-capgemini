@@ -62,7 +62,23 @@ public class App {
             }
             */
     
-    
+            // 3 - Escreva um algoritmo para determinar o consumo médio de um automóvel 
+            // sendo fornecida a distância total percorrida pelo automóvel
+            // e o total de combustível gasto;
+
+            // km/lt = mediaConumo
+
+            // R:
+            /*
+            double mediaConsumo;
+            double distanciaPercorrida = 300d;
+            double combustivelGasto = 30d;
+
+            mediaConsumo = distanciaPercorrida / combustivelGasto;
+
+            System.out.println("A media de consumo eh " + mediaConsumo + "km/l");
+            */
+
     
     
     
