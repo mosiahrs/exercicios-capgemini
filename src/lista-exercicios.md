@@ -30,10 +30,10 @@ disponíveis com ousuário;
 - [x] 9. Faça um algoritmo que receba um valor que foi depositado e exiba o valor com rendimento após um
 mês.Considere fixo o juro da poupança em 0,07% a. m;
 
-- [ ] 10. A Loja Mamão com Açúcar está vendendo seus produtos(cinco)prestações sem juros. Faça um
+- [x] 10. A Loja Mamão com Açúcar está vendendo seus produtos(cinco)prestações sem juros. Faça um
 algoritmo que receba um valor de uma compra e mostre o valor das prestações;
 
-- [ ] 11. Faça um algoritmo que receba o preço de custo de um produto e mostre o valor de venda. Sabe-se que o
+- [x] 11. Faça um algoritmo que receba o preço de custo de um produto e mostre o valor de venda. Sabe-se que o
 preço de custo receberá um acréscimo de acordo com um percentual informado pelo usuário;
 
 - [x] 12. O custo de um carro novo ao consumidoré a soma do custo de fábrica mais o percentual do distribuidor e
