@@ -3,12 +3,12 @@ Instrutor: Marcio Michelluzzi
 
 #   Lista de exercícios I 
 
-1. Faça um algoritmo que receba dois números e exiba o resultado da sua soma;
+[x] 1. Faça um algoritmo que receba dois números e exiba o resultado da sua soma;
 
-2. Faça um algoritmo que receba dois números e ao final mostre a soma, subtração, multiplicação e a divisão
+[x] 2. Faça um algoritmo que receba dois números e ao final mostre a soma, subtração, multiplicação e a divisão
 dos dois números lidos;
 
-3. Escreva um algoritmo para determinar o consumo médio de um automóvel sendo fornecida a distância
+[x] 3. Escreva um algoritmo para determinar o consumo médio de um automóvel sendo fornecida a distância
 total percorrida pelo automóvel e o total de combustível gasto;
 
 4. Escreva um algoritmo que leia o nome de um vendedor, o seu salário fixo e o total de vendas efetuadas
