@@ -70,7 +70,7 @@ Informar total de carros com ano até 2000 e total geral;
 - [x] 21. Escreva um algoritmo que leia os dados de “N” pessoas (nome, sexo, idade e saúde) e informe se está apta
 ou não para cumprir o serviço militar obrigatório. Informe os totais;
 
-- [ ] 22. Faça um algoritmo que receba o preço de custo e o preço de venda de 40 produtos. Mostre como resultado
+- [x] 22. Faça um algoritmo que receba o preço de custo e o preço de venda de 40 produtos. Mostre como resultado
 se houve lucro, prejuízo ou empate para cada produto. Informe o valor de custo de cada produto, o valor
 de venda de cada produto, amédia de preço de custo e do preço de venda;
 
