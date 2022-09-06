@@ -475,3 +475,39 @@
             i++;
         }
 */
+/* 22 - R:
+        Scanner leitor = new Scanner(System.in);
+
+        float precoVenda;
+        float precoCusto;
+        float totalCusto = 0.0f;
+        float totalVenda = 0.0f;
+        String nome;
+        int i = 0;
+
+        for (; i < 3; i++) {
+            System.out.println("Digite o nome do produto");
+            nome = leitor.next();
+
+            System.out.println("Digite o preço de Custo");
+            precoCusto = leitor.nextFloat();
+
+            System.out.println("Digite o preço de Venda");
+            precoVenda = leitor.nextFloat();
+
+            totalCusto = totalCusto + precoCusto;
+            totalVenda = totalVenda + precoVenda;
+
+            if (precoCusto == precoVenda) {
+                System.out.println("Empate");
+            } else {
+                if (precoVenda > precoCusto) {
+                    System.out.println("Lucro");
+                } else {
+                    System.out.println("Prejuizo");
+                }
+            }
+        }
+        System.out.println("A media de custo " + (totalCusto / i) + " R$");
+        System.out.println("A media de venda " + (totalVenda / i) + " R$");
+*/
