@@ -67,7 +67,7 @@ desconto deverá ser calculado de acordo com o ano do veículo. Até 2000 - 12% 
 sistema deverá perguntar se deseja continuar calculando desconto até que a resposta seja: “(N) Não”.
 Informar total de carros com ano até 2000 e total geral;
 
-- [ ] 21. Escreva um algoritmo que leia os dados de “N” pessoas (nome, sexo, idade e saúde) e informe se está apta
+- [x] 21. Escreva um algoritmo que leia os dados de “N” pessoas (nome, sexo, idade e saúde) e informe se está apta
 ou não para cumprir o serviço militar obrigatório. Informe os totais;
 
 - [ ] 22. Faça um algoritmo que receba o preço de custo e o preço de venda de 40 produtos. Mostre como resultado
