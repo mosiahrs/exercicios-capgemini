@@ -395,3 +395,37 @@
  * System.out.println("Total de " + h + " Homens e total de " + m +
  * " Mulheres");
  */
+/* 20 - R:
+ * Scanner leitor = new Scanner(System.in);
+ * 
+ * Double valorCarro;
+ * Double desconto;
+ * Double valorFinal;
+ * int anoVeiculo;
+ * char resposta = 'S';
+ * 
+ * while (resposta == 'S' || resposta == 's') {
+ * 
+ * System.out.println("Digite o ano do veiculo");
+ * anoVeiculo = leitor.nextInt();
+ * 
+ * System.out.println("Digite o valor do veiculo");
+ * valorCarro = leitor.nextDouble();
+ * 
+ * if (anoVeiculo <= 2000) {
+ * desconto = (valorCarro * 12) / 100;
+ * } else {
+ * desconto = (valorCarro * 7) / 100;
+ * }
+ * valorFinal = valorCarro - desconto;
+ * 
+ * System.out.println("O cliente vai receber " + desconto + " R$ "
+ * + " de desconto");
+ * 
+ * System.out.println("Sera pago " + valorFinal + " R$");
+ * 
+ * System.out.println("Deseja continuar? S para sim e N para não");
+ * resposta = leitor.next().charAt(0);
+ * }
+ * System.out.println("Programa encerrado!");
+ */
