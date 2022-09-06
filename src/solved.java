@@ -429,3 +429,49 @@
  * }
  * System.out.println("Programa encerrado!");
  */
+/* 21 - R: 
+        Scanner leitor = new Scanner(System.in);
+
+        int n;
+        int i = 0;
+
+        System.out.println("Digite a quantidade de pessoas");
+        n = leitor.nextInt();
+
+        while (i < n) {
+            System.out.println("Digite seu nome do candidato");
+            String nome = leitor.next();
+            System.out.println("Digite o genero (h - homem | m - mulher )");
+            char genero = leitor.next().charAt(0);
+            System.out.println("Digite a idade");
+            int idade = leitor.nextInt();
+            System.out.println("Passou no teste de saude (s- sim | n - não)");
+            char saude = leitor.next().charAt(0);
+
+            if (genero != 'h') {
+                System.out.println(
+                        nome + " é mulher, serviço militar no Brail"
+                        + " é obrigatório somente para homens! ");
+            } else {
+                if (idade < 18) {
+                    System.out.println(nome + " é menor de idade,"
+                            + "o serviço militar é obrigatório somente maiores! ");
+                } else {
+                    if (saude != 's') {
+                        System.out.println(nome + " Não passou no exame de saúde"
+                                + ", é obrigatório para o serviço militar.");
+                    } else {
+                        if (idade <= 19) {
+                            System.out.println("O candidato " + nome + " está ápto "
+                                    + " para o serviço militar obrigatório.");
+                        } else {
+                            System.out.println("O candidato " + nome + " está ápto, "
+                                    + " mas para o excesso de contingência!");
+                        }
+                    }
+                }
+            }
+            System.out.println("");
+            i++;
+        }
+*/
