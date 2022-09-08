@@ -86,13 +86,13 @@ maior, e uma mensagem que são diferentes;
 - [x] 26. Faça um algoritmo que leia um número de 1 a 5 e escreva por extenso. Caso o usuário digite um número
 que não esteja neste intervalo, exibir a seguinte mensagem: número inválido;
 
-- [ ] 27. A concessionária de veículos “CARANGO” está vendendo os seus veículos com desconto. Faça um
+- [x] 27. A concessionária de veículos “CARANGO” está vendendo os seus veículos com desconto. Faça um
 algoritmo que calcule e exiba o valor do desconto e o valor a ser pago pelo cliente. O desconto deverá ser
 calculado sobre o valor do veículo de acordo com o combustível (álcool – 25%, gasolina – 21% ou diesel
 –14%). Com valor do veículo zero encerra entrada de dados. Informe total de desconto e total pago pelos
 clientes;
 
-- [ ] 28. Escreva um algoritmo para uma empresa que decide dar um reajuste a seus 584 funcionários de acordo
+- [x] 28. Escreva um algoritmo para uma empresa que decide dar um reajuste a seus 584 funcionários de acordo
 com os seguintes critérios:
 
 a.50% para aqueles que ganham menos do que três salários mínimos;
@@ -104,9 +104,9 @@ Leia o nome do funcionário, seu salário e o valor do salário mínimo. Calcule
 reajustado. Escrever o nome do funcionário, o reajuste e seu novo salário. Calcule quanto à empresa
 vai aumentar sua folha de pagamento;
 
-- [ ] 29. Faça um algoritmo que receba o número do mês e mostre o mês correspondente. Valide mês inválido;
+- [x] 29. Faça um algoritmo que receba o número do mês e mostre o mês correspondente. Valide mês inválido;
 
-- [ ] 30. Escreva um algoritmo que leia três valores inteiros distintos e os escreva em ordem crescente;
+- [x] 30. Escreva um algoritmo que leia três valores inteiros distintos e os escreva em ordem crescente;
 
 - [ ] 31. Dados três valores A, B e C, em que A e B são números reais e C é um caractere, pede-se para imprimir o resultado da operação de A por B se C for um símbolo de operador aritmético; caso contrário deve ser
 impressa uma mensagem de operador não definido. Tratar erro de divisão por zero;
@@ -140,7 +140,3 @@ Tipo de Cliente Valor do KW/h
 a. (Residência) 0,60;
 b. (Comércio) 0,48;
 c. (Indústria) 1,29.
-
-
-
-
