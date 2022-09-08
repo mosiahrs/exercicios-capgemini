@@ -511,3 +511,29 @@
         System.out.println("A media de custo " + (totalCusto / i) + " R$");
         System.out.println("A media de venda " + (totalVenda / i) + " R$");
 */
+/* 23 - R:
+        Scanner leitor = new Scanner(System.in);
+
+        System.out.println("Digite um número");
+        int n = leitor.nextInt();
+
+        if (n > 80) {
+            System.out.println("O número " + n + " é maior que 80!");
+        } else {
+            if (n < 25) {
+                System.out.println("O número " + n + " é menor que 25!");
+            } else {
+                if (n == 40) {
+                    System.out.println("O número " + n + " é igual a 40!");
+                }
+            }
+        }
+        if (n < 80) {
+            System.out.println("O número " + n + " é menor que 80!");
+        } else {
+            if (n == 80) {
+                System.out.println("O número " + n + " é igual 80");
+            }
+        }
+*/
+
