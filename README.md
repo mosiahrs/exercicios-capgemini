@@ -1,9 +1,16 @@
-## Curso de Lógica para Programação III
-Instrutor: Marcio Michelluzzi
+<div align="center" >
 
-<hr> 
+<h3> Curso de Lógica para Programação III <h4>(Instrutor: Marcio Michelluzzi)</h4> </h3> 
 
-###   Lista de exercícios 
+
+
+<img width="100" src="https://user-images.githubusercontent.com/100864562/189210224-b583365f-3faf-4d58-9ce4-cb73eedd7504.png" />
+
+
+
+</div>
+
+<h3> Lista de exercícios </h3>
 
 - [x] 1. Faça um algoritmo que receba dois números e exiba o resultado da sua soma;
 
