@@ -536,4 +536,40 @@
             }
         }
 */
+/* 24 - R: 
+        Scanner leitor = new Scanner(System.in);
+
+        System.out.println("Digite um número");
+        int n = leitor.nextInt();
+
+        if (n > 0) {
+            System.out.println(n + " = Número Positivo");
+        } else {
+            if (n == 0) {
+                System.out.println("O número digitado é igual a zero!");
+            } else {
+                System.out.println(n + " = Número Negativo");
+            }
+        }
+*/
+/* 25 - R: 
+        Scanner leitor = new Scanner(System.in);
+
+        int a = leitor.nextInt();
+        int b = leitor.nextInt();
+
+        if (a == b) {
+            System.out.println("Os números digitados são iguais.");
+        } else {
+            if (a > b) {
+                System.out.println("Os números digitados são diferentes.");
+                System.out.println("O número " + a + " é maior que " + b + "!");
+            } else {
+                System.out.println("Os números digitados são diferentes.");
+                System.out.println("O número " + b + " é maior que " + a + "!");
+            }
+        }
+*/
+
+
 
