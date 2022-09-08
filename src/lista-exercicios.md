@@ -83,7 +83,7 @@ menor que 25 ou igual a 40;
 imprima uma mensagem dizendo que eles são iguais. Caso sejam diferentes, informe qual número é o
 maior, e uma mensagem que são diferentes;
 
-- [ ] 26. Faça um algoritmo que leia um número de 1 a 5 e escreva por extenso. Caso o usuário digite um número
+- [x] 26. Faça um algoritmo que leia um número de 1 a 5 e escreva por extenso. Caso o usuário digite um número
 que não esteja neste intervalo, exibir a seguinte mensagem: número inválido;
 
 - [ ] 27. A concessionária de veículos “CARANGO” está vendendo os seus veículos com desconto. Faça um
