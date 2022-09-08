@@ -74,12 +74,12 @@ ou não para cumprir o serviço militar obrigatório. Informe os totais;
 se houve lucro, prejuízo ou empate para cada produto. Informe o valor de custo de cada produto, o valor
 de venda de cada produto, amédia de preço de custo e do preço de venda;
 
-- [ ] 23. Faça um algoritmo que receba um número e mostre uma mensagem caso este número sege maior que 80,
+- [x] 23. Faça um algoritmo que receba um número e mostre uma mensagem caso este número sege maior que 80,
 menor que 25 ou igual a 40;
 
-- [ ] 24. Faça um algoritmo que receba “N” números e mostre positivo, negativo ou zero para cada número;
+- [x] 24. Faça um algoritmo que receba “N” números e mostre positivo, negativo ou zero para cada número;
 
-- [ ] 25. Faça um algoritmo que leia dois números e identifique se são iguais ou diferentes. Caso eles sejam iguais
+- [x] 25. Faça um algoritmo que leia dois números e identifique se são iguais ou diferentes. Caso eles sejam iguais
 imprima uma mensagem dizendo que eles são iguais. Caso sejam diferentes, informe qual número é o
 maior, e uma mensagem que são diferentes;
 
