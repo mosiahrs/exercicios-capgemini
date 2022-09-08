@@ -604,5 +604,156 @@
 
         }
 */
+/* 27 - R:
+        Scanner leitor = new Scanner(System.in);
+
+        System.out.println("Digite o valor do veículo");
+        float valorVeiculo = leitor.nextFloat();
+
+        float descontoAlcool = (valorVeiculo * 25) / 100;
+        float descontoGas = (valorVeiculo * 21) / 100;
+        float descontoDiesel = (valorVeiculo * 14) / 100;
+
+        if (valorVeiculo == 0) {
+            System.out.println("Programa encerrado!");
+        } else {
+            System.out.println("Escolha o tipo de combústivel");
+            System.out.println("1 - Alcool");
+            System.out.println("2 - Gasolina");
+            System.out.println("3 - Diesel");
+            int opcao = leitor.nextInt();
+
+            switch (opcao) {
+
+                case 1:
+                    System.out.println("O cliente irá pagar " + (valorVeiculo - descontoAlcool) + " R$");
+                    break;
+
+                case 2:
+                    System.out.println("O cliente irá pagar " + (valorVeiculo - descontoGas) + " R$");
+                    break;
+
+                case 3:
+                    System.out.println("O cliente irá pagar " + (valorVeiculo - descontoDiesel) + " R$");
+                    break;
+
+                default:
+                    System.out.println("Opção inválida");
+                    valorVeiculo = 0;
+            }
+
+        }
+*/
+
+/* 28 - R:
+        Scanner leitor = new Scanner(System.in);
+
+        float salarioMin = 1212.00f;
+        float aumentoSalario;
+        float reajuste = 0.0f;
+
+        for (int i = 0; i < 584; i++) {
+            System.out.println("Digite o primeiro nome do Funcionário");
+            String nomeFuncionario = leitor.next();
+
+            System.out.println("Digite o valor do Salário do Funcionário");
+            float salarioFuncionario = leitor.nextFloat();
+
+            float calcSalarioMin = (salarioFuncionario / salarioMin);
+
+            if (calcSalarioMin <= 3) {
+                System.out.println(nomeFuncionario + " irá receber 50% de aumento");
+                reajuste = (salarioFuncionario * 0.5f);
+                aumentoSalario = salarioFuncionario + reajuste;
+            } else {
+                if (calcSalarioMin >= 3 & calcSalarioMin <= 10) {
+                    System.out.println(nomeFuncionario + " irá receber 20% de aumento");
+                    reajuste = (salarioFuncionario * 0.2f);
+                    aumentoSalario = salarioFuncionario + reajuste;
+                } else {
+                    if (calcSalarioMin > 10 & calcSalarioMin <= 20) {
+                        System.out.println(nomeFuncionario + " irá receber 15% de aumento");
+                        reajuste = (salarioFuncionario * 0.15f);
+                        aumentoSalario = salarioFuncionario + reajuste;
+                    } else {
+                        System.out.println(nomeFuncionario + " irá receber 10% de aumento");
+                        reajuste = (salarioFuncionario * 0.10f);
+                        aumentoSalario = salarioFuncionario + reajuste;
+                    }
+                }
+            }
+            System.out.println("Será acrescido R$ " + reajuste + " em sua folha de pagamento");
+            System.out.println("Novo salario de " + nomeFuncionario + " " + (salarioFuncionario + reajuste) + " R$");
+        }
+
+*/
+/* 29 - R:
+        Scanner entrada = new Scanner(System.in);
+
+        System.out.println("Digite o número do mês");
+
+        int numero = entrada.nextInt();
+        switch (numero) {
+            case 1:
+                System.out.println("Janeiro");
+                break;
+            case 2:
+                System.out.println("Fevereiro");
+                break;
+            case 3:
+                System.out.println("Março");
+                break;
+            case 4:
+                System.out.println("Abril");
+                break;
+            case 5:
+                System.out.println("Maio");
+                break;
+            case 6:
+                System.out.println("Junho");
+                break;
+            case 7:
+                System.out.println("Julho");
+                break;
+            case 8:
+                System.out.println("Agosto");
+                break;
+            case 9:
+                System.out.println("Setembro");
+                break;
+            case 10:
+                System.out.println("Outubro");
+                break;
+            case 11:
+                System.out.println("Novembro");
+                break;
+            case 12:
+                System.out.println("Dezembro");
+                break;
+            default:
+                System.out.println("Mês inválido!");
+        }
+*/
+/* 30 - R: 
+        int[] numero = new int[3];
+        System.out.println("Insira o primeiro número");
+        numero[0] = entrada.nextInt();
+        System.out.println("Insira o segundo número");
+        numero[1] = entrada.nextInt();
+        System.out.println("Insira o terceiro número");
+        numero[2] = entrada.nextInt();
+        for (int i = 0; i < numero.length - 1; i++) {
+            for (int j = 0; j < numero.length - 1; j++) {
+                if (numero[j] > numero[j + 1]) {
+                    int aux = numero[j];
+                    numero[j] = numero[j + 1];
+                    numero[j + 1] = aux;
+                }
+            }
+        }
+        System.out.println("A ordem crescente dos numeros é " + numero[0] + ", "
+                + numero[1] + " e " + numero[2]);
+*/
+/* 
 
 
