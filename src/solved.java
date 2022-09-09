@@ -791,6 +791,31 @@
         }
 */
 /* 32 - R: 
+        Scanner entrada = new Scanner(System.in);
+
+        System.out.println("Digite a medida do primeiro lado");
+        int l1 = entrada.nextInt();
+        System.out.println("Digite a medida do segundo lado");
+        int l2 = entrada.nextInt();
+        System.out.println("Digite a medida do terceiro lado");
+        int l3 = entrada.nextInt();
+
+        if (l1 + l2 < l3 || l2 + l3 < l1 || l1 + l3 < l2) {
+            System.out.println("Não é um triângulo");
+        } else {
+            if (l1 == l2 & l2 == l3) {
+                System.out.println("Triângulo equilátero");
+            } else {
+                if (l1 == l2 || l2 == l3 || l3 == l1) {
+                    System.out.println("Triângulo isósceles");
+                } else {
+                    System.out.println("Triângulo escaleno");
+                }
+            }
+
+        }
+*/
+/* 33 - R:
 
 
 
