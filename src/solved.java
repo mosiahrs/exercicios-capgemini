@@ -843,6 +843,35 @@
         System.out.println("O salário deste profº é : " + salarioProf + " R$");
 */
 /* 34 - R: 
+        Scanner entrada = new Scanner(System.in);
+
+        System.out.println("Digite a idade do Nadador :");
+        int idade = entrada.nextInt();
+
+        if (idade <= 10 && idade >= 5) {
+            if (idade <= 7) {
+                System.out.println("Infantil A");
+            } else {
+                System.out.println("Infantil B");
+            }
+        }
+
+        if (idade <= 17 && idade >= 11) {
+            if (idade <= 13) {
+                System.out.println("Juvenil A");
+            } else {
+                System.out.println("Juvenil B");
+            }
+        } else {
+            if (idade <= 25 && idade >= 18) {
+                System.out.println("Sênior");
+            }
+
+        }
+*/
+/* 35 - R: 
+
+
 
 
 
