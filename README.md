@@ -136,7 +136,7 @@ calcule e exiba o salário de um professor. Sabe-se que o valor da hora/aula seg
 - b. Professor Nível 2 R$17,00 por hora/aula;
 - c. Professor Nível 3 R$25,00 por hora/aula.
 
-- [ ] 34. Elabore um algoritmo que, dada a idade de um nadador. Classifique-o em uma das seguintes categorias:
+- [x] 34. Elabore um algoritmo que, dada a idade de um nadador. Classifique-o em uma das seguintes categorias:
 
 - a. Infantil A = 5 - 7 anos;
 - b. Infantil B = 8 - 10 anos;
