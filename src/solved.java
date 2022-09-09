@@ -817,5 +817,32 @@
 */
 /* 33 - R:
 
+        Scanner entrada = new Scanner(System.in);
+
+        float salarioProf = 0.0f;
+
+        System.out.println("Digite o nível do Professor (1, 2 ou 3)");
+        int nivelProf = entrada.nextInt();
+
+        System.out.println("Digite quantas horas o profº trabalhou.");
+        float qtdHoras = entrada.nextFloat();
+
+        switch (nivelProf) {
+            case 1:
+                salarioProf = qtdHoras * 12;
+                break;
+            case 2:
+                salarioProf = qtdHoras * 17;
+                break;
+            case 3:
+                salarioProf = qtdHoras * 25;
+                break;
+            default:
+                System.out.println("Nível inválido");
+        }
+        System.out.println("O salário deste profº é : " + salarioProf + " R$");
+*/
+/* 34 - R: 
+
 
 
