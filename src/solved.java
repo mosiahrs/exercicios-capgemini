@@ -754,6 +754,43 @@
         System.out.println("A ordem crescente dos numeros é " + numero[0] + ", "
                 + numero[1] + " e " + numero[2]);
 */
-/* 
+/* 31 - R: 
+        Scanner entrada = new Scanner(System.in);
+
+        System.out.println("Digite o primeiro número da operação");
+        Double A = entrada.nextDouble();
+        System.out.println("Digite o segundo número da opreração");
+        Double B = entrada.nextDouble();
+        System.out.println("Digite o simbolo da operação que deseja realizar");
+        System.out.println("+ soma | - subtração | * multiplicação | / divisão");
+        char C = entrada.next().charAt(0);
+
+        switch (C) {
+            case '+':
+                System.out.println("Operação de soma");
+                System.out.println((A + B));
+                break;
+            case '-':
+                System.out.println("Operação de subtração");
+                System.out.println((A - B));
+                break;
+            case '*':
+                System.out.println("Operação de multiplicação");
+                System.out.println((A * B));
+                break;
+            case '/':
+                if (A == 0 || B == 0) {
+                    System.out.println("erro de divisão por zero");
+                } else {
+                    System.out.println("Operação de divisão");
+                    System.out.println((A / B));
+                }
+                break;
+            default:
+                System.out.println("Simbolo inválido - operador não definido");
+        }
+*/
+/* 32 - R: 
+
 
 
